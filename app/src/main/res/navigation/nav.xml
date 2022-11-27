@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/pubs_fragment">
+
+    <fragment
+        android:id="@+id/login_fragment"
+        android:name="com.example.mobv_zadanie_procka.ui.fragments.LoginFragment"
+        android:label="LoginFragment">
+    </fragment>
+    <fragment
+        android:id="@+id/pubs_fragment"
+        android:name="com.example.mobv_zadanie_procka.ui.fragments.PubsFragment"
+        android:label="PubsFragment" />
+    <fragment
+        android:id="@+id/sign_up_fragment"
+        android:name="com.example.mobv_zadanie_procka.ui.fragments.SignUpFragment"
+        android:label="SignUpFragment" />
+    <fragment
+        android:id="@+id/locate_fragment"
+        android:name="com.example.mobv_zadanie_procka.ui.fragments.LocateFragment"
+        android:label="LocateFragment" />
+
+    <fragment
+        android:id="@+id/detail_fragment"
+        android:name="com.example.mobv_zadanie_procka.ui.fragments.PubDetailFragment"
+        android:label="PubDetailFragment">
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_to_login"
+        app:destination="@id/login_fragment" />
+    <action
+        android:id="@+id/action_to_sign_up"
+        app:destination="@id/sign_up_fragment" />
+    <action
+        android:id="@+id/action_to_pubs"
+        app:destination="@id/pubs_fragment" />
+    <action
+        android:id="@+id/action_to_locate"
+        app:destination="@id/locate_fragment" />
+
+    <action
+        android:id="@+id/action_to_detail"
+        app:destination="@id/detail_fragment" />
+</navigation>

@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">MOBV_zadanie_procka</string>
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_login">Login</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="action_sign_up">Sign up </string>
+    <string name="login_sign_up">"Sign up failed"</string>
+    <string name="or_log_in">or log in</string>
+    <string name="or_create_account">or create account.</string>
+    <string name="pubs">Pubs</string>
+    <string name="log_out">Log out</string>
+    <string name="repeat_password">repeat password</string>
+    <string name="back">back</string>
+    <string name="zobrazit_na_mape">Zobrazit na mape</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
